@@ -1,0 +1,14 @@
+/* Footer */
+.footer a,
+.footer small{
+  font-size: var(--small-font-size);
+  color: $color-grey;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer button {
+  border: 1px solid $color-grey;
+}

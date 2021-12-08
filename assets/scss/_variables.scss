@@ -1,0 +1,27 @@
+// Colors
+$background-grey: #f0f2f5;
+$color-grey: #8a8d91;
+
+:root {
+  // fontsize
+  --big-font-size: 3.5rem;
+  --normal-font-size: 1.2rem;
+  --small-font-size: .75rem;
+
+  // Widths
+  --max-width: 300px;
+  --width: 20rem;
+}
+
+// Responsive
+@media screen and (min-width: 900px) {
+  :root {
+    // fontsize
+    --big-font-size: 4.5rem;
+    --normal-font-size: 1.4rem;
+  
+    // Widths
+    --max-width: 450px;
+    --width: 24rem;
+  }
+}
